@@ -47,8 +47,8 @@
 
 /* Homerow mods */
 
-#define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5  // left hand
-#define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5  // right hand
+#define KEYS_L LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5 LN0 LN1 LN2 LN3 LN4  // left hand
+#define KEYS_R RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5 RN0 RN1 RN2 RN3 RN4// right hand
 #define THUMBS LH4 LH3 LH2 LH1 LH0 RH0 RH1 RH2 RH3 RH4                                      // thumbs
 
 #define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
@@ -244,7 +244,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 
 ZMK_LAYER(base,
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    X_LT          ___          &kp N1         &kp N2         &kp N3         &kp N4       &kp N5       X_MT     &kp N6         &kp N7         &kp N8         &kp N9         &kp N0                    X_RT
+    X_LN          ___          &kp N1         &kp N2         &kp N3         &kp N4       &kp N5       X_MN     &kp N6         &kp N7         &kp N8         &kp N9         &kp N0                    X_RN
 //├──────┤ ├─────────────┼─────────────┬─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┬─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
     X_LT            ___        &kp Q         &kp W         &kp F         &kp P         &kp B           X_MT     &kp J         &kp L         &kp U         &kp Y         &kp SQT                      X_RT
 //├──────┤ ├─────────────┼─────────────┬─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤ ├─────────────┬─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
