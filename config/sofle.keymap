@@ -7,43 +7,49 @@
 #define X_RM0   &kp SQT &kp LSHFT
 #define X_RB0   &kp RSHFT
 #define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
-// #define X_LH0   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH0   &kp RGUI &kp RALT &kp RCTRL
+#define X_LH0   &kp LGUI &kp LALT &kp BSPC
+#define X_RH0   &kp RGUI &kp RALT &kp RCTRL
 
-// #define X_LT1   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-// #define X_RT1   &kp BSPC &kp TAB
-// #define X_RM1   &kp SQT &kp LSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
-// #define X_LH1   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH1   &kp RGUI &kp RALT &kp RCTRL
+#define X_LT1   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+#define X_RT1   &kp BSPC &kp TAB
+#define X_RM1   &kp SQT &kp LSHFT
+#define X_RB1   &kp RSHFT
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_LH1   &kp LGUI &kp LALT &kp BSPC
+#define X_RH1   &kp RGUI &kp RALT &kp RCTRL
 
-// #define X_LT2   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-// #define X_RT2   &kp BSPC &kp TAB
-// #define X_RM2   &kp SQT &kp LSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
-// #define X_LH2   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH2   &kp RGUI &kp RALT &kp RCTRL
+#define X_LT2   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+#define X_RT2   &kp BSPC &kp TAB
+#define X_RM2   &kp SQT &kp LSHFT
+#define X_RB2   &kp RSHFT
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_LH2   &kp LGUI &kp LALT &kp BSPC
+#define X_RH2   &kp RGUI &kp RALT &kp RCTRL
 
-// #define X_LT3   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-// #define X_RT3   &kp BSPC &kp TAB
-// #define X_RM3   &kp SQT &kp LSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
-// #define X_LH3   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH3   &kp RGUI &kp RALT &kp RCTRL
+#define X_LT3   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+#define X_RT3   &kp BSPC &kp TAB
+#define X_RM3   &kp SQT &kp LSHFT
+#define X_RB3   &kp RSHFT
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_LH3   &kp LGUI &kp LALT &kp BSPC
+#define X_RH3   &kp RGUI &kp RALT &kp RCTRL
 
-// #define X_LT4   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-// #define X_RT4   &kp BSPC &kp TAB
-// #define X_RM4   &kp SQT &kp LSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
-// #define X_LH4   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH4   &kp RGUI &kp RALT &kp RCTRL
+#define X_LT4   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+#define X_RT4   &kp BSPC &kp TAB
+#define X_RM4   &kp SQT &kp LSHFT
+#define X_RB4   &kp RSHFT
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_LH4   &kp LGUI &kp LALT &kp BSPC
+#define X_RH4   &kp RGUI &kp RALT &kp RCTRL
 
-// #define X_LT5   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-// #define X_RT5   &kp BSPC &kp TAB
-// #define X_RM5   &kp SQT &kp LSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
-// #define X_LH5   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH5   &kp RGUI &kp RALT &kp RCTRL
+#define X_LT5   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+#define X_RT5   &kp BSPC &kp TAB
+#define X_RM5   &kp SQT &kp LSHFT
+#define X_RB5   &kp RSHFT
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_LH5   &kp LGUI &kp LALT &kp BSPC
+#define X_RH5   &kp RGUI &kp RALT &kp RCTRL
+
 
 // #define X_LH  &smart_mouse  // thumb row, left
 // #define X_RH  &bs_del       // thumb row, right
