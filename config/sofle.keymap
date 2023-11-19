@@ -6,7 +6,7 @@
 #define X_RT0   &kp BSPC &kp TAB
 #define X_RM0   &kp SQT &kp LSHFT
 #define X_RB0   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH0   &kp LGUI &kp LALT &kp BSPC
 #define X_RH0   &kp RGUI &kp RALT &kp RCTRL
 
@@ -14,7 +14,7 @@
 #define X_RT1   &kp BSPC &kp TAB
 #define X_RM1   &kp SQT &kp LSHFT
 #define X_RB1   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH1   &kp LGUI &kp LALT &kp BSPC
 #define X_RH1   &kp RGUI &kp RALT &kp RCTRL
 
@@ -22,7 +22,7 @@
 #define X_RT2   &kp BSPC &kp TAB
 #define X_RM2   &kp SQT &kp LSHFT
 #define X_RB2   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH2   &kp LGUI &kp LALT &kp BSPC
 #define X_RH2   &kp RGUI &kp RALT &kp RCTRL
 
@@ -30,7 +30,7 @@
 #define X_RT3   &kp BSPC &kp TAB
 #define X_RM3   &kp SQT &kp LSHFT
 #define X_RB3   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH3   &kp LGUI &kp LALT &kp BSPC
 #define X_RH3   &kp RGUI &kp RALT &kp RCTRL
 
@@ -38,7 +38,7 @@
 #define X_RT4   &kp BSPC &kp TAB
 #define X_RM4   &kp SQT &kp LSHFT
 #define X_RB4   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH4   &kp LGUI &kp LALT &kp BSPC
 #define X_RH4   &kp RGUI &kp RALT &kp RCTRL
 
@@ -46,7 +46,7 @@
 #define X_RT5   &kp BSPC &kp TAB
 #define X_RM5   &kp SQT &kp LSHFT
 #define X_RB5   &kp RSHFT
-#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH5   &kp LGUI &kp LALT &kp BSPC
 #define X_RH5   &kp RGUI &kp RALT &kp RCTRL
 
