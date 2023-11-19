@@ -6,7 +6,7 @@
 #define X_RT0   &kp BSPC &kp TAB
 #define X_RM0   &kp SQT &kp LSHFT
 #define X_RB0   &kp RSHFT
-// #define X_MB    &kp C_MUTE &kp C_B_BRI_MIN
+#define X_MB    &kp C_BRIGHTNESS_INC  &kp C_BRI_DEC
 // #define X_LH0   &kp LGUI &kp LALT &kp BSPC
 // #define X_RH0   &kp RGUI &kp RALT &kp RCTRL
 
