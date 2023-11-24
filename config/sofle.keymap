@@ -8,7 +8,7 @@
 #define X_RB0   &kp RSHFT
 #define X_MB    &kp C_MUTE  &kp C_BRI_DEC
 #define X_LH0   &kp LGUI &kp LALT &kp BSPC
-#define X_RH0   &kp RGUI &kp RALT &kp RCTRL
+#define X_RH0   &kp BSPC &kp RALT &kp RCTRL
 
 #define X_LT1   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
 #define X_RT1   &trans &trans
