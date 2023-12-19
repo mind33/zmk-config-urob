@@ -4,9 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-// #include "sofle.dtsi"
-
-#include <dt-bindings/zmk/matrix_transform.h>
+#include "sofle.dtsi"
 
 &default_transform {
 	col-offset = <6>;
