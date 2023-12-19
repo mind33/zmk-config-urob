@@ -6,6 +6,8 @@
 
 // #include "sofle.dtsi"
 
+#include <dt-bindings/zmk/matrix_transform.h>
+
 &kscan0 {
 	col-gpios
 		= <&pro_micro 14 GPIO_ACTIVE_HIGH>
