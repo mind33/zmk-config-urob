@@ -1,5 +1,5 @@
 /* source keypos definitions */
-#include "keypos_60keys.h"
+#include <keypos_60keys.h>
 
 /* map Zen's extra keys */
 #define X_LT0   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
