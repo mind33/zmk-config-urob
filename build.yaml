@@ -15,9 +15,13 @@
 include:
   - board: planck_rev6
   - board: corneish_zen_v2_left
+    shield: sofle_left
   - board: corneish_zen_v2_right
+    shield: sofle_left
   - board: glove80_lh
+    shield: sofle_left
   - board: glove80_rh
+    shield: sofle_left
   - board: nice_nano_v2
     # shield: sofle_left
   - board: nice_nano_v2
