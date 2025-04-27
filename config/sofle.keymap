@@ -3,60 +3,60 @@
 #include "zmk-helpers/key-labels/sofle.h"
 
 /* map Zen's extra keys */
-#define X_LT   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
-#define X_RT   &kp BSPC &kp TAB
-#define X_RM   &kp SQT &kp LSHFT
-#define X_RB   &kp RSHFT
-#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
-#define X_LH   &kp LGUI &kp LALT &kp BSPC
-#define X_RH   &kp BSPC &kp RALT &kp RCTRL
-
-// #define X_RT0   &kp BSPC &kp TAB
-// #define X_RM0   &kp SQT &kp LSHFT
-// #define X_RB0   &kp RSHFT
+// #define X_LT   &kp ESC &kp N1 &kp N2 &kp N3 &kp N4 &kp N5     &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp SEMI &kp GRAVE
+// #define X_RT   &kp BSPC &kp TAB
+// #define X_RM   &kp SQT &kp LSHFT
+// #define X_RB   &kp RSHFT
 // #define X_MB    &kp C_MUTE  &kp C_BRI_DEC
-// #define X_LH0   &kp LGUI &kp LALT &kp BSPC
-// #define X_RH0   &kp BSPC &kp RALT &kp RCTRL
+// #define X_LH   &kp LGUI &kp LALT &kp BSPC
+// #define X_RH   &kp BSPC &kp RALT &kp RCTRL
 
-// #define X_LT1   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
-// #define X_RT1   &trans &trans
-// #define X_RM1   &trans &trans
-// #define X_RB1   &trans
-// #define X_MB    &trans  &trans
-// #define X_LH1   &trans &trans &trans
-// #define X_RH1   &trans &trans &trans
+#define X_RT0   &kp BSPC &kp TAB
+#define X_RM0   &kp SQT &kp LSHFT
+#define X_RB0   &kp RSHFT
+#define X_MB    &kp C_MUTE  &kp C_BRI_DEC
+#define X_LH0   &kp LGUI &kp LALT &kp BSPC
+#define X_RH0   &kp BSPC &kp RALT &kp RCTRL
 
-// #define X_LT2   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
-// #define X_RT2   &trans &trans
-// #define X_RM2   &trans &trans
-// #define X_RB2   &trans
-// #define X_MB    &trans &trans
-// #define X_LH2   &trans &trans &trans
-// #define X_RH2   &trans &trans &trans
+#define X_LT1   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+#define X_RT1   &trans &trans
+#define X_RM1   &trans &trans
+#define X_RB1   &trans
+#define X_MB    &trans  &trans
+#define X_LH1   &trans &trans &trans
+#define X_RH1   &trans &trans &trans
 
-// #define X_LT3   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
-// #define X_RT3   &trans &trans
-// #define X_RM3   &trans &trans
-// #define X_RB3   &trans
-// #define X_MB    &trans &trans
-// #define X_LH3   &trans &trans &trans
-// #define X_RH3   &trans &trans &trans
+#define X_LT2   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+#define X_RT2   &trans &trans
+#define X_RM2   &trans &trans
+#define X_RB2   &trans
+#define X_MB    &trans &trans
+#define X_LH2   &trans &trans &trans
+#define X_RH2   &trans &trans &trans
 
-// #define X_LT4   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
-// #define X_RT4   &trans &trans
-// #define X_RM4   &trans &trans
-// #define X_RB4   &trans
-// #define X_MB    &trans &trans
-// #define X_LH4   &trans &trans &trans
-// #define X_RH4   &trans &trans &trans
+#define X_LT3   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+#define X_RT3   &trans &trans
+#define X_RM3   &trans &trans
+#define X_RB3   &trans
+#define X_MB    &trans &trans
+#define X_LH3   &trans &trans &trans
+#define X_RH3   &trans &trans &trans
 
-// #define X_LT5   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
-// #define X_RT5   &trans &trans
-// #define X_RM5   &trans &trans
-// #define X_RB5   &trans
-// #define X_MB    &trans &trans
-// #define X_LH5   &trans &trans &trans
-// #define X_RH5   &trans &trans &trans
+#define X_LT4   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+#define X_RT4   &trans &trans
+#define X_RM4   &trans &trans
+#define X_RB4   &trans
+#define X_MB    &trans &trans
+#define X_LH4   &trans &trans &trans
+#define X_RH4   &trans &trans &trans
+
+#define X_LT5   &trans &trans &trans &trans &trans &trans     &trans &trans &trans &trans &trans &trans &trans
+#define X_RT5   &trans &trans
+#define X_RM5   &trans &trans
+#define X_RB5   &trans
+#define X_MB    &trans &trans
+#define X_LH5   &trans &trans &trans
+#define X_RH5   &trans &trans &trans
 
 
 // #define X_LH  &smart_mouse  // thumb row, left
