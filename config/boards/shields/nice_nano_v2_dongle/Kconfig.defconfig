@@ -3,20 +3,4 @@ if SHIELD_NICE_NANO_V2_DONGLE
 config ZMK_KEYBOARD_NAME
     default "Sofle Dongle"
 
-config ZMK_SPLIT
-    default y
-
-config ZMK_SPLIT_BLE
-    default y
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-config ZMK_USB
-    default y
-
-# Use mock kscan since the dongle has no physical keys
-config ZMK_KSCAN_MOCK_DRIVER
-    default y
-
 endif # SHIELD_NICE_NANO_V2_DONGLE
