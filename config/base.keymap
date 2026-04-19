@@ -22,7 +22,14 @@
 
 #include "combos.dtsi"  // requires layer aliases
 #include "mouse.dtsi"
-//#include "extra_keys.h"
+#include "leader.dtsi"
+
+// Leader with shift modifier
+ZMK_MOD_MORPH(leader_sft,
+    bindings = <&leader>, <&leader>;
+    mods = <MOD_LSFT>;
+)
+#include "extra_keys.h"
 
 #define XXX &none
 #define ___ &trans
