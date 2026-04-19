@@ -1,0 +1,6 @@
+/*
+ * Helper overlay applied on top of sofle_left when building for the USB dongle
+ * setup.  The actual configuration changes (split role, BLE) live in
+ * config/sofle_dongle_helper.conf; this file exists so that ZMK's CMake shield
+ * detection recognises sofle_dongle_helper as a valid shield.
+ */
