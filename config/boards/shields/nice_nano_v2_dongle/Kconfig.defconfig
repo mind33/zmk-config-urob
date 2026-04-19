@@ -3,4 +3,21 @@ if SHIELD_NICE_NANO_V2_DONGLE
 config ZMK_KEYBOARD_NAME
     default "Sofle Dongle"
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT
+    default y
+
+# Two peripherals: left and right Sofle halves.
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+# BT_MAX_CONN = peripherals (2) + desired BT profiles (5) = 7
+config BT_MAX_CONN
+    default 7
+
+config BT_MAX_PAIRED
+    default 7
+
 endif # SHIELD_NICE_NANO_V2_DONGLE
