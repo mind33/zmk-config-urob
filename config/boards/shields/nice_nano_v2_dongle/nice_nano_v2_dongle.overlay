@@ -1,0 +1,19 @@
+/*
+ * nice!nano v2 USB dongle overlay.
+ * The dongle has no physical keys; all key events come from the split
+ * peripherals (Sofle left and right halves) over BLE.
+ */
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    /* Mock kscan – fires no events; all input arrives via BLE split. */
+    kscan0: kscan_mock {
+        compatible = "zmk,kscan-mock";
+        rows = <0>;
+        columns = <0>;
+        events = <>;
+    };
+};
