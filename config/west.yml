@@ -58,7 +58,7 @@ manifest:
     # Corne & Sofle dongle shields (pro_micro and xiao compatible)
     - name: zmk-config
       remote: mctechnology17
-      revision: main
+      revision: 3d4d341bec9708a41388bb159bbca402e67f3c0a
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
