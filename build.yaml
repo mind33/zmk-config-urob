@@ -13,9 +13,28 @@
 #
 ---
 include:
+  ### STANDARD SPLIT (no dongle) ###
   - board: nice_nano_v2
     shield: sofle_left
   - board: nice_nano_v2
     shield: sofle_right
+
+  ### DONGLE SETUP ###
+  # Left half as peripheral (BLE only, no keymap needed)
+  - board: nice_nano_v2
+    shield: sofle_left_peripheral
+    artifact-name: sofle_left_peripheral
+
+  # Right half stays the same (peripheral by default)
+  # Re-use the sofle_right build above for dongle mode too
+
+  # Dongle (central – holds the keymap, connects to computer via USB)
+  - board: nice_nano_v2
+    shield: sofle_dongle_pro_micro dongle_display
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n
+    artifact-name: sofle_dongle_pro_micro
+    snippet: studio-rpc-usb-uart
+
+  ### SETTINGS RESET ###
   - board: nice_nano_v2
     shield: settings_reset
