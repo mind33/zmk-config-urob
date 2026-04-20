@@ -13,28 +13,55 @@
 #
 ---
 include:
-  ### STANDARD SPLIT (no dongle) ###
+  ### SOFLE — STANDARD SPLIT (no dongle) ###
   - board: nice_nano_v2
     shield: sofle_left
   - board: nice_nano_v2
     shield: sofle_right
 
-  ### DONGLE SETUP ###
-  # Left half as peripheral (BLE only, no keymap needed)
+  ### SOFLE — DONGLE SETUP (mctechnology17/zmk-config module) ###
+  # Left half as BLE-only peripheral (flash this to the left half)
   - board: nice_nano_v2
     shield: sofle_left_peripheral
     artifact-name: sofle_left_peripheral
 
-  # Right half stays the same (peripheral by default)
-  # Re-use the sofle_right build above for dongle mode too
+  # Right half is unchanged (peripheral by default) — reuse sofle_right above
 
-  # Dongle (central – holds the keymap, connects to computer via USB)
+  # Dongle central — nice!nano v2 plugged into USB; holds the keymap
   - board: nice_nano_v2
-    shield: sofle_dongle_pro_micro dongle_display
+    shield: sofle_dongle_pro_micro
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"SofleDongle\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n
     artifact-name: sofle_dongle_pro_micro
+    snippet: studio-rpc-usb-uart
+
+  ### CORNE — DONGLE SETUP (mctechnology17/zmk-config module) ###
+  # Left half as BLE-only peripheral (flash this to the left half)
+  - board: nice_nano_v2
+    shield: corne_left_peripheral
+    artifact-name: corne_left_peripheral
+
+  # Right half — standard corne right peripheral
+  - board: nice_nano_v2
+    shield: corne_right
+    artifact-name: corne_right
+
+  # Dongle central (pro_micro footprint / nice!nano v2) — USB HID
+  - board: nice_nano_v2
+    shield: corne_dongle_pro_micro
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"CorneDongle\" -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SLEEP=n
+    artifact-name: corne_dongle_pro_micro
+    snippet: studio-rpc-usb-uart
+
+  # Dongle central (Seeed XIAO BLE) — USB HID
+  - board: seeeduino_xiao_ble
+    shield: corne_dongle_xiao
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"XiaoDongle\" -DCONFIG_ZMK_STUDIO=y
+    artifact-name: corne_dongle_xiao
     snippet: studio-rpc-usb-uart
 
   ### SETTINGS RESET ###
   - board: nice_nano_v2
     shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: settings_reset_xiao

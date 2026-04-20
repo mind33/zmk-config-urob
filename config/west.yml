@@ -28,6 +28,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
 
   projects:
     - name: zmk
@@ -52,6 +54,11 @@ manifest:
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
+
+    # Corne & Sofle dongle shields (pro_micro and xiao compatible)
+    - name: zmk-config
+      remote: mctechnology17
+      revision: main
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
