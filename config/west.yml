@@ -29,6 +29,10 @@ manifest:
     # for dongle
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    
+    # dongle_display
+    - name: englmaxi
+      url-base: https://github.com/englmaxi
 
   projects:
     - name: zmk
