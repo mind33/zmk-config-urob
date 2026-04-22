@@ -26,11 +26,18 @@ manifest:
       url-base: https://github.com/urob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    # for dongle
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
 
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    # for dongle
+    - name: zmk-config
+      remote: mctechnology17
+      revision: main
 
     # ZMK modules
     - name: zmk-adaptive-key
@@ -45,6 +52,8 @@ manifest:
       path: modules/zmk/tri-state
     - name: zmk-unicode
       path: modules/zmk/unicode
+
+
 
     # Only source necessary Zephyr modules. Remove this entire section to restore
     # the default (needed for less common hardware).
