@@ -11,5 +11,5 @@ jobs:
     uses: urob/zmk-actions/.github/workflows/build-user-config.yml@main
     with:
       # Set to 'gnuarmemb' 'zephyr' or 'zephyr-full' (from fastest to
-      # most compatible). ZMK Studio requires 'zephyr-full'.
-      toolchain: zephyr-full
+      # most compatible).
+      toolchain: zephyr
