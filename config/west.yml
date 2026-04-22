@@ -39,6 +39,11 @@ manifest:
       remote: mctechnology17
       revision: main
 
+        # dongle_display
+    - name: zmk-dongle-display
+      remote: englmaxi
+      revision: v0.3
+
     # ZMK modules
     - name: zmk-adaptive-key
       path: modules/zmk/adaptive-key
