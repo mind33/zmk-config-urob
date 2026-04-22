@@ -12,4 +12,4 @@ jobs:
     with:
       # Set to 'gnuarmemb' 'zephyr' or 'zephyr-full' (from fastest to
       # most compatible). ZMK Studio requires 'zephyr-full'.
-      toolchain: zephyr
+      toolchain: zephyr-full
