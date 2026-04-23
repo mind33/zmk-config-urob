@@ -37,5 +37,3 @@ include:
     shield: sofle_left_peripheral
   - board: nice_nano@2//zmk
     shield: sofle_dongle_pro_micro
-  - board: seeeduino_xiao_ble
-    shield: sofle_dongle_xiao
