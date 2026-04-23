@@ -30,7 +30,8 @@ include:
     shield: sofle_left_peripheral
     artifact-name: sofle_left_peripheral
   - board: nice_nano@2//zmk
-    shield: sofle_right
+    shield: sofle_right_peripheral
+    artifact-name: sofle_right_peripheral
   - board: nice_nano@2//zmk
     shield: sofle_dongle_pro_micro
     snippet: studio-rpc-usb-uart
