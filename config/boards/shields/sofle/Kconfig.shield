@@ -10,5 +10,8 @@ config SHIELD_SOFLE_RIGHT
 config SHIELD_SOFLE_LEFT_PERIPHERAL
     def_bool $(shields_list_contains,sofle_left_peripheral)
 
+config SHIELD_SOFLE_RIGHT_PERIPHERAL
+    def_bool $(shields_list_contains,sofle_right_peripheral)
+
 config SHIELD_SOFLE_DONGLE_PRO_MICRO
     def_bool $(shields_list_contains,sofle_dongle_pro_micro)
