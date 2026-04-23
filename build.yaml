@@ -31,3 +31,11 @@ include:
     shield: sofle_right
   - board: nice_nano@2//zmk
     shield: settings_reset
+
+  # Dongle configuration (3-way split: dongle + left peripheral + right peripheral)
+  - board: nice_nano@2//zmk
+    shield: sofle_left_peripheral
+  - board: nice_nano@2//zmk
+    shield: sofle_dongle_pro_micro
+  - board: seeeduino_xiao_ble
+    shield: sofle_dongle_xiao
