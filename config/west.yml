@@ -66,6 +66,7 @@ manifest:
           - hal_rpi_pico
           - hal_stm32
           - mbedtls
+          - nanopb
           - tinycrypt
 
   self:
