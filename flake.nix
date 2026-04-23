@@ -1,9 +1,6 @@
 {
   inputs = {
-    # Pin nixpkgs to a specific nixos-unstable revision for reproducibility.
-    # This commit (2026-04-14) includes the pythonRelaxDeps fix for spsdk-mcu-link
-    # (hidapi~=0.14.0.post2 constraint), avoiding dependency mismatch errors.
-    nixpkgs.url = "github:NixOS/nixpkgs/4bd9165a9165d7b5e33ae57f3eecbcb28fb231c9";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
     # This pins requirements.txt provided by zephyr-nix.pythonEnv.
     zephyr.url = "github:zmkfirmware/zephyr/v4.1.0+zmk-fixes";

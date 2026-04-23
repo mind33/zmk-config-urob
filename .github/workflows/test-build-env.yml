@@ -30,6 +30,6 @@ jobs:
       - name: Set up build environment
         run: nix develop --command just init
       - name: Test build recipe
-        run: nix develop --command just build sofle_left
+        run: nix develop --command just build planck
       - name: Test draw recipe
         run: nix develop --command just draw
