@@ -13,22 +13,6 @@
 #
 ---
 include:
-  # - board: planck@6.0.0//zmk
-  # - board: corneish_zen_left@2.0.0//zmk
-  # - board: corneish_zen_right@2.0.0//zmk
-  # - board: glove80_lh
-  # - board: glove80_rh
-  # - board: nice_nano_v2
-  #   shield: sofle_left
-  # - board: nice_nano_v2
-  #   shield: sofle_right
-  # - board: nice_nano_v2
-  #   shield: settings_reset
-
-  - board: nice_nano@2//zmk
-    shield: sofle_left
-  - board: nice_nano@2//zmk
-    shield: sofle_right
   - board: nice_nano@2//zmk
     shield: settings_reset
 
