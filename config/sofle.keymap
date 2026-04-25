@@ -8,7 +8,7 @@
         &kp LSHFT LB &kp C_MUTE &kp C_MUTE             RB            &kp RSHFT  \
         &kp LALT &kp LGUI &none LH RH &smart_mouse &kp RGUI &kp RALT            \
         ,                                                                        \
-        &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN                   \
+        &inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_DN PG_UP                   \
     )
 
 #include "zmk-helpers/key-labels/sofle.h"
