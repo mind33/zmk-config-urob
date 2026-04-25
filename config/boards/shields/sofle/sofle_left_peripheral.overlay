@@ -20,3 +20,10 @@
 &left_encoder {
     status = "okay";
 };
+
+// Disable the onboard blue LED so it doesn't blink during BLE activity.
+/ {
+    leds {
+        status = "disabled";
+    };
+};

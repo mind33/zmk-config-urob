@@ -68,6 +68,10 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
 };
 
 // Disable the onboard blue LED so it doesn't blink during BLE activity.
-&blue_led {
-    status = "disabled";
+// Disabling the parent leds node prevents the gpio-leds driver from
+// creating a device and controlling the LED GPIO at all.
+/ {
+    leds {
+        status = "disabled";
+    };
 };
